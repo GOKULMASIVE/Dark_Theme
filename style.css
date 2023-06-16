@@ -1,0 +1,132 @@
+
+
+:root{
+    --clr-bcg:white;
+    --clr-font:black;
+    --clr-primary:rgb(212, 41, 69);
+    --clr-grey:lightslategray;
+}
+.dark-theme{
+    --clr-bcg:black;
+    --clr-font:white;
+    --clr-primary:rgb(182, 57, 77);
+    --clr-grey:rgb(159, 172, 185);
+}
+body{
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* text-transform: capitalize; */
+    color:var(--clr-font);
+    background: var(--clr-bcg);
+    line-height: 1.5;
+    font-size: 0.875rem;
+    transition: all 0.3s linear;
+}
+.nav-center{
+    /* background-color: gray; */
+    height: 100px;
+    padding-top: 20px;
+    /* padding-left: 20px; */
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-weight:lighter;
+    font-size: 40px;
+    letter-spacing: 7px;
+ 
+}
+
+.btn{
+    float: right;
+    height: 30px;
+    width: 70px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style:double;
+    color:var(--clr-bcg);
+    background-color: var(--clr-primary);
+    border-style: hidden;
+}
+p,h2{
+    text-transform: capitalize;
+}
+
+h2{
+    color: var(--clr-primary);
+    margin-bottom: 5px;
+}
+.post-info{
+    color:var(--clr-grey);
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
